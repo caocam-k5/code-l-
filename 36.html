@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3.1 Bai 6</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                line-height: 1.8;                
+            }
+
+            .clearfix::after {
+                clear: both;
+                content: ".";
+                display: block;
+                height: 0;
+                line-height: 0;
+                visibility: hidden;               
+            }
+
+            .news {
+                width: 1000px;
+                margin: 30px auto;               
+            }
+
+            .image-news {
+                float: left;
+                margin-right: 30px;
+            }
+
+            .image-news img {
+                width: 300px;                
+            }
+
+            .info-news {
+                float: right;
+                width: 640px;
+            }
+
+            .title {
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 30px;
+                color: blueviolet;
+            }
+
+            .justify {
+                text-align: justify;
+            }
+
+            .description {
+                margin-bottom: 18px;
+                font-weight: 600;
+            }
+
+            .content {
+                color: #999;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                padding: 10px 20px;
+                background-color: white;
+                border: 2px solid #555;
+                border-radius: 4px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: 600;
+            }
+
+            .btn:hover {
+                background-color: #333;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="news clearfix">
+            <div class="image-news">
+                <img src="./messi.jpg" alt="Messi image">
+            </div>
+
+            <div class="info-news">
+                <h2 class="title">Tin tức bóng đá </h2>
+                <p class="description justify">Cầu thủ bóng đá từng 7 lần giành Quả Bóng Vàng đã phải gặp chấn thương khi thi đấu vòng loại World Cup 2026 cùng ĐT Argentina. Về Inter Miami, Messi chỉ ra sân 37 phút trước khi phải rời sân trong trận đấu với Toronto FC. Để tránh rủi ro, siêu sao Argentina được cho nghỉ trong trận hòa 1-1 trước Orlando City.</p>
+                <p class="content justify">Kết quả này khiến đoàn quân của HLV Tata Martino dậm chân ở vị trí thứ 14 với 32 điểm sau 29 trận, kém suất dự play-off MLS 5 điểm. Tuy nhiên, đây không phải cách biệt quá lớn bởi Inter Miami còn trong tay 5 trận đấu nữa. Trước mắt, trận đấu tiếp theo của Inter Miami có ý nghĩa lớn khi họ sẽ tranh chức vô địch US Open Cup với Houston Dynamo. Nếu thành công, Inter Miami sẽ có chiếc cúp thứ 2 trong mùa giải, trước đó họ từng giành Leagues Cup...</p>
+                <button class="btn">Chi tiết</button>
+            </div>
+        </section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam porro mollitia totam dicta earum quidem, iste animi quae aliquid saepe sunt similique consequatur, sit eum eligendi dolor perspiciatis voluptatem.</p>
+    </body>
+</html>

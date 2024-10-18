@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3.1 bài 1</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                font-size: 16px;
+                font-family: Helvetica, sans-serif;
+                color: #333;
+            }
+
+            .container {
+                width: 90%;
+                max-width: 800px;
+                margin: 20px auto;
+                text-align: center;
+                border: 1px solid black;
+                border-radius: 5px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .logo {
+                margin: 30px 0;
+            }
+
+            .logo-text {
+                background-color: blueviolet;
+                padding: 15px 25px;
+                border-radius: 5px;
+                text-transform: uppercase;
+                color: #fff;
+                letter-spacing: 2px;
+            }
+
+            .title {
+                font-size: 45px;
+                margin-bottom: 25px;
+                font-weight: 600;
+            }
+
+            .highlight {
+                color: #00aeef;
+                font-size: 45px;
+                font-weight: 600;
+            }
+
+            .content {
+                margin-bottom: 40px;
+            }
+
+            .button-list {
+                margin-bottom: 40px;
+            }
+
+            .button-list {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
+
+            .button {
+                background-color: #333;
+                padding: 15px 25px;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+
+            .button a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .button:hover {
+                background-color: #00aeef;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">frontend</span>
+            </div>
+            <h2 class="title">
+                Best <span class="highlight">shared hosting</span> company
+            </h2>
+            <p class="content">
+                With this responsive landing page template, you can promote all your hosting, domain, and email services.
+            </p>
+            <div class="button-list">
+                <div class="button">
+                    <a href="#">View Plans</a>
+                </div>
+                <div class="button">
+                    <a href="#">All Features</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

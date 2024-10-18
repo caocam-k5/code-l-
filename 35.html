@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3.1 Bai 5</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-p2iD9yrIFwNoNCpxG4KaYofgrgAkU9CNmXcsNu9buASN9fOpRoHRc6FfXkLxhlE69JCXQYFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+            }
+
+            .clearfix::after {
+                clear: both;
+                content: ".";
+                display: block;
+                height: 0;
+                line-height: 0;
+                visibility: hidden;
+            }
+
+            .header {
+                margin: 30px auto;
+                width: 1140px;
+            }
+
+            .logo {
+                float: left;
+                padding: 0 25px;
+                background-color: rgb(7, 55, 55);
+                border-radius: 5px;
+            }
+
+            .logo p{
+                float: left;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            .navigation {
+                float: left;
+            }
+
+            .navigation li{
+                display: inline-block;
+                list-style: none;
+                margin-right: 26px;
+                line-height: 1.5;
+            }
+
+            .navigation li a {
+                text-decoration: none;
+                color: #333;
+            }
+
+            .navigation li:hover a {
+                color: #1FB7F1;  
+            }
+
+            .navigation .active a{
+                color: #1FB7F1;
+            }
+
+            .login {
+                float: right;
+                padding: 0 20px;
+                border: 2px solid #efefef;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .login:hover {
+                border-color: #00aeef;
+            }
+
+            .login a{
+                text-decoration: none;
+                color: #000;
+            }
+
+            .login i {
+                padding-right: 5px;
+            }
+        </style>
+        <body>
+            <header class="clearfix">
+                <div class="logo">
+                    <p>logo</p>
+                </div>
+                <nav class="navigation">
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Domain</a></li>
+                        <li><a href="#">Hosting</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Testimnals</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="login">
+                    <a href="#"><p class="login-text"><i class="fa-solid fa-look"></i> Customer Login</p></a>
+                </div>
+            </header>
+            <p>Lorem ipsum, dolor sit amet consectetur sdipisicing elit. non ipsum illo ex debitis laudantium </p>
+        </body>
+    </head>
+</html>
